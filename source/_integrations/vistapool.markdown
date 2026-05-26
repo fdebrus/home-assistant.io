@@ -1,6 +1,6 @@
 ---
 title: Vistapool
-description: Monitor and control Hayward-branded pool controllers via the Hayward cloud API.
+description: Monitor and control Vistapool-compatible pool controllers via the Vistapool cloud API.
 ha_category:
   - Binary sensor
   - Sensor
@@ -16,21 +16,21 @@ ha_platforms:
 ha_integration_type: hub
 ---
 
-The **Vistapool** integration connects Home Assistant to **Hayward-branded pool controllers**, including AquaRite, Vistapool, Sugar Valley, Poolwatch, Kripsol, and Dagen devices.
+The **Vistapool** integration connects Home Assistant to **Vistapool-compatible pool controllers**, including AquaRite, Vistapool, Sugar Valley, Poolwatch, Kripsol, and Dagen devices.
 
-It communicates with the official Hayward cloud API using real-time push updates (no polling), giving you instant visibility and control over your pool equipment.
+It communicates with the official Vistapool cloud API using real-time push updates (no polling), giving you instant visibility and control over your pool equipment.
 
 {% include integrations/config_flow.md %}
 
 ## Prerequisites
 
-- A supported Hayward-compatible pool controller
+- A supported Vistapool-compatible pool controller
 - A Wi-Fi module connected to the internet
-- The controller must already be linked to your Hayward cloud account
+- The controller must already be linked to your Vistapool cloud account
 
 ## Supported devices
 
-Any pool controller compatible with the Hayward / AquaRite cloud platform, including:
+Any pool controller compatible with the Vistapool cloud platform, including:
 
 - Hayward AquaRite
 - Vistapool
@@ -96,11 +96,11 @@ To use any of the diagnostic entities, enable them in {% my entities title="**Se
 
 ### Entities show "Unavailable"
 
-Check your internet connection and verify the controller is online in the Hayward app. The integration will automatically reconnect when the connection is restored.
+Check your internet connection and verify the controller is online in the Vistapool app. The integration will automatically reconnect when the connection is restored.
 
 ### Reauth notification appears
 
-Your credentials may have changed or expired. Select the notification to re-enter your Hayward username and password.
+Your credentials may have changed or expired. Select the notification to re-enter your Vistapool username and password.
 
 ### Entities not updating
 
