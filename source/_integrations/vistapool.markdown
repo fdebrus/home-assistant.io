@@ -89,7 +89,7 @@ To use any of the diagnostic entities, enable them in {% my entities title="**Se
 
 ## Known limitations
 
-- The integration requires an active internet connection as it communicates via the Hayward cloud API
+- The integration requires an active internet connection as it communicates via the Vistapool cloud API
 - Sensor availability depends on which modules are physically installed on your controller
 
 ## Troubleshooting
